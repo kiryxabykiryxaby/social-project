@@ -1,0 +1,33 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: rgba(64, 64, 65, 0.555);
+    margin: 10px;
+    padding: 10px;
+
+}
+.dialogs img {
+    width: 50px;
+    border-radius: 50%;
+}
+.dialogs a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.message {
+    
+    background-color: rgb(114, 173, 119);
+    
+vertical-align:middle!important;
+
+  height: 75px;
+    margin: 10px;
+}
+.message p {
+    vertical-align: bottom ;
+}
+.dialogE {
+    background-color: whitesmoke;
+    margin: 10px;
+}

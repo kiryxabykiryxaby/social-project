@@ -8,9 +8,11 @@ import s from './Navbar.module.css';
 
 const Navbar = (props) => {
   
+  
   let FriendsElements = props.state.dialogs.map(
     f => <Friends ava={f.ava} name={f.name} />
 );
+
   return (
     <nav className={s.nav}>
       <div className={`${s.item} ${s.active}`}> <NavLink to='/profile' activeClassName={s.active} >PROFILE </NavLink></div>
